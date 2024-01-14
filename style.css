@@ -1,0 +1,208 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(24, 25, 25);
+   
+}
+img{
+    opacity: 0.85;
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+img:hover{
+    opacity:0.6;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.main{
+    position: absolute;
+    top:15rem;
+    left:1.7rem;
+    color:white;
+    text-align: center;
+    background-color: transparent;
+    font-size: 4rem;
+    text-decoration: underline 3px solid powderblue;
+}
+.submain{
+    position: absolute;
+    top:20rem;
+    left:1.8rem;
+    color:white;
+    text-align: center;
+    background-color: transparent;
+    font-size: 2rem;
+    
+}
+.navbar{
+    
+    margin-left: 50rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color:whitesmoke;
+    font-size: 15px;
+    transition: transform 0.3s ease-in;
+}
+.a:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.b:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.c:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.d:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.e:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.boxes{
+    justify-content: center;
+    padding-top: 4rem;
+    display: flex;
+    color:white;
+    
+   
+    
+}
+.box1{
+    height:300px;
+    width:300px;
+    
+    
+}
+.box2{
+    height:300px;
+    width:300px;
+  
+}
+.box3{
+    height:300px;
+    width:300px;  
+}
+.box4{
+    height:300px;
+    width:300px;  
+}
+.order{
+    color:aliceblue;
+    font-size: 25px;
+    margin-left: 42.2%;
+    margin-top: 3rem;
+    height: 4rem;
+    width:15rem;
+    background-color: rgb(45, 87, 118);
+    border-radius: 1.5rem;
+    border: 2px solid rgb(59, 59, 84);
+
+}
+.order:hover{
+    cursor: pointer;
+    font-size: 30px;
+    opacity:0.7;
+
+}
+.second{
+    display: flex;
+    margin-top: 4rem;
+}
+.photo1{
+    height:400px;
+    width:400px;
+}
+.photo2{
+    height:400px;
+    width:400px;
+    object-fit: cover;
+}
+.about{
+    color:aliceblue;
+    font-size: 55px;
+    margin-left: 17rem;
+    margin-top:3rem;
+    margin-bottom: 1.5rem;
+
+}
+.abt{
+    color:aliceblue;
+    font-size: 25px;
+    margin-left: 17rem;
+    margin-bottom: 1.5rem;
+}
+.red{
+    color: aquamarine;
+    font-size: 20px;
+    margin-left: 17rem;
+    margin-bottom: .7rem;
+    
+
+}
+.text{
+    color:aliceblue;
+    font-size: 17px;
+    margin-left: 17rem;
+}
+/*third block*/
+
+
+.third{
+    display: flex;
+    margin-top: 4rem;
+    margin-right:rem;
+}
+.photo3{
+    height:400px;
+    width:400px;
+    object-fit:cover;
+    padding-left:11.5rem;
+
+}
+.photo4{
+    height:400px;
+    width:400px;
+    object-fit: cover;
+
+}
+.about{
+    color:aliceblue;
+    font-size: 55px;
+    margin-left: 17rem;
+    margin-top:3rem;
+    margin-bottom: 1.5rem;
+
+}
+.abt{
+    color:aliceblue;
+    font-size: 25px;
+    margin-left: 17rem;
+    margin-bottom: 1.5rem;
+}
+.red{
+    color: aquamarine;
+    font-size: 20px;
+    margin-left: 17rem;
+    margin-bottom: .7rem;
+    
+
+}
+.text{
+    color:aliceblue;
+    font-size: 17px;
+    margin-left: 17rem;
+}
+
